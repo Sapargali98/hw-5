@@ -44,6 +44,7 @@ public class Main {
     }
     public static int count_Vowels(String name)
     {
+
         int count = 0;
         for (int i = 0; i < name.length(); i++)
         {
@@ -52,6 +53,7 @@ public class Main {
                 count++;
             }
         }
+
         return count;
     }
 
